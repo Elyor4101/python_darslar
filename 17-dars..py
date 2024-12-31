@@ -10,7 +10,10 @@ yosh=input(savol)
 yosh=int(yosh)
 height=input('Boyingiz nechchi metr? ')
 height=float(height)
-
+a=5
+b=6
+c=a+b
+print(c)
 
 
 
