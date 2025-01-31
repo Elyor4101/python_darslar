@@ -35,7 +35,7 @@ while qiymat !='exit':
     if qiymat !='exit':
         print(float(qiymat)**2)
 print('Dastur tugadi.')
- """ 
+ """
 """ 
 #Ishora bilan 
 print('Kiritilgan sonning kvadratini qaytruvchi dastur.')
@@ -61,7 +61,7 @@ while True:
         print(float(qiymat)**2)
 print('Dastur tugadi!')
 """
-#break 
+# break
 """
 sonlar=list(range(1,11))
 for son in sonlar:
@@ -85,6 +85,57 @@ while son<10:
     else:
         print(son)
 """
+
+##### Amaliyot#######
+
+#1.
+'''
+kitoblar = []  # Kitoblar ro'yxatini yaratam
+
+while True:
+    kitob = input("Yaxshi ko'rgan kitobingizni kiriting (yoki 'stop' deb yozing to'xtatish uchun): ")
+    kitoblar.append(kitob) 
+    if kitob.lower() == 'stop':  # Agar foydalanuvchi 'stop' deb yozsa
+        print("Dastur tugadi.")
+        break  # Dastur to'xtaydi
+       
+        
+print("\nSiz yaxshi ko'rgan kitoblar:")
+for kitob in kitoblar:
+    print(f"- {kitob}")
+'''
+#2.
+
+
+# Muzeyga chipta narhi foydalanuvchining
+# yoshiga bog'liq:
+# 7 dan yoshlarga - 2000 so'm,
+# 7-18 gacha 3000 so'm,
+# 18-65 gacha 10000 so'm,
+# 65 dan kattalarga bepul.
+# Shunday while tsikl yozingki,
+# dastur foydalanuvchi yoshini so'rasin
+# va chipta narhini chiqarsin.
+# Foydalanuvchi exit yoki quit deb yozganda
+# dastur to'xtasin (ikkita shartni ham tekshiring).
+
+savol='Yoshingizni kiriting'
+while True:
+    qiymat=input(savol)
+    if qiymat=='exit ' or qiymat=='quit':
+        break
+    yosh=int(qiymat)
+    if yosh<7:
+        narx=2000
+    elif 7<=yosh<18:
+        narx=3000
+    elif 18<=yosh<65:
+
+
+
+
+
+
 
 
 
