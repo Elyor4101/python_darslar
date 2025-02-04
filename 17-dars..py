@@ -119,7 +119,7 @@ for kitob in kitoblar:
 # Foydalanuvchi exit yoki quit deb yozganda
 # dastur to'xtasin (ikkita shartni ham tekshiring).
 
-savol='Yoshingizni kiriting'
+savol='Yoshingizni kiriting:'
 while True:
     qiymat=input(savol)
     if qiymat=='exit ' or qiymat=='quit':
@@ -130,6 +130,16 @@ while True:
     elif 7<=yosh<18:
         narx=3000
     elif 18<=yosh<65:
+        narx=10000
+    else:
+        narx=0
+    if narx==0 :
+        print('sizga chipta bepul.')
+    else:
+        print(f"Sizga bilet {narx} so'm.")
+        
+        
+        
 
 
 
